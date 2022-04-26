@@ -1,0 +1,24 @@
+
+<div class="container">
+    <ul class="experience">
+        {% for job in experience %}
+        <li>
+            <h6>{{ job.company_name }} &ndash; {{ job.position }}</h6>
+            {{ job.started }} - {{ job.finished }} <br>
+            {{ job.address }} <br>
+            {{ job.contact }}
+
+            <div class="row">
+
+            <ul class="job-duties">
+                {% for duty in job.duties %}
+                <li>{{duty}}</li>
+                {% empty %}
+                <li> {{ job.description }}</li>
+                {% endfor %}
+            </ul>
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
