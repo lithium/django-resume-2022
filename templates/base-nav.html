@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+
+
+{% block body %}
+    <nav class="light-blue lighten-1" role="navigation">
+        <div class="nav-wrapper container">
+            <a class="brand-logo" href="/">Wiggins' Resume</a>
+
+            <ul class="right hide-on-med-and-down">
+                <li><a href="/printable" target="printable"><i class="material-icons">description</i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    {% block content %}
+    {% endblock %}
+
+
+    <footer class="page-footer light-blue darken-1">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5>Bio</h5>
+                    <p class="white-text">Over 15 years of experience designing, building, deploying and maintaining applications and enterprise software using:
+                        <br>
+                        Kotlin, Scala, Java, Typescript, Python, Ruby, ObjC, C/C++
+                        <br>
+                        SpringBoot, Django, Rails, Angular, React, iOS, Android, OSX, Qt
+                        <br>
+                        Docker, Ansible, Jenkins, AWS, Heroku
+                    </p>
+                </div>
+                <div class="col l3 s12">
+                    <h5>Social</h5>
+                    <ul>
+                        <li><a class="white-text" target="_blank" href="https://github.com/coffindragger">github.com/coffindragger</a></li>
+                        <li><a class="white-text" target="_blank" href="https://github.com/lithium">github.com/lithium</a></li>
+                    </ul>
+                </div>
+                <div class="col l3 s12">
+                    <h5>Contact</h5>
+                    <ul>
+                        <li><span class="e-mail" data-user="[detcader]" data-domain="[detcader]"></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-copyright">
+            <div class="container">Made with
+                <a class="orange-text text-lighten-3" target="_blank" href="https://materializecss.com">Materialize</a>,
+                <a class="orange-text text-lighten-3" target="_blank" href="https://www.djangoproject.com/">Django</a>, and
+                <a class="orange-text text-lighten-3" target="_blank" href="https://heroku.com">Heroku</a>.
+                <a class="white-text text-lighten-3" target="_blank" href="https://github.com/lithium/django-resume-2022">[view source]</a>
+            </div>
+        </div>
+    </footer>
+
+{% endblock %}
