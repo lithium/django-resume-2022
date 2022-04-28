@@ -10,7 +10,8 @@ class FixedContentMixin(object):
         context = super().get_context_data(**kwargs)
         context.update({
             'skills': _content.skills,
-            'experience': _content.experience
+            'experience': _content.experience,
+            'projects': _content.projects,
         })
         return context
 

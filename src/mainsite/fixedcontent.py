@@ -6,9 +6,107 @@ class FixedContent(object):
             "name": "Programming",
             "description": "Experience developing in many languages and platforms. Ability to pick up new platforms quickly."
         },
+        {
+            "name": "",
+            "description": "",
+        },
+    ]
+    projects = [
+        {
+            "name": "Code Wars",
+            "technology": "Node.js, Javascript",
+            "summary": "A modern version of the classic computing game Core Wars with a builtin script interpreter and ranking system. Built and submitted for the GitHub Game Off 2013.",
+            "description": "",
+            "links": [
+                {"url": "https://github.com/lithium/code-wars", "label": "GitHub"},
+                {"url": "https://code-wars.herokuapp.com", "label": "Launch"},
+            ]
+        },
+
+        {
+            "name": "Multiplayer Fairy Chess",
+            "technology": "Django, Python",
+            "summary": "Free For All Fairy Chess in Django",
+            "description": "One christmas I decided to get a four-handed chess board for the office.  Setting it up in the office on an empty desk quickly dropped productivity of anyone within earshot. \r\n\r\nA new 50\" tv had just been installed in the office as well and nothing interesting had been visualized on it yet.\r\n\r\nI built this quick little django app, to allow untimed ffa multiplayer chess with board set up to do variants as well.  It ran on the Wall TV in the office for a few months and a few of us had a great time playing FFA chess matches and also experimenting and trying out different chess variants, like chaturaji or just building our own boards and layouts.",
+            "links": [
+                {"url": "https://github.com/lithium/django-chessmatch", "label": "GitHub"},
+            ]
+        },
+
+
+        {
+            "name": "Lithtris",
+            "technology": "SDL, C++",
+            "summary": "Tetris in SDL circa 2007",
+            "description": "",
+            "links": [
+                {"url": "https://github.com/lithium/lithtris", "label": "GitHub"},
+            ]
+        },
+
+
+        {
+            "name": "Syntheremin",
+            "technology": "Leap Motion, OSX, ObjC",
+            "summary": "A synthesizer I built for Concentric Sky to help demonstrate the Leap Motion Controller",
+            "description": "",
+            "links": [
+                {"url": "http://syntheremin.com", "label": "Website"},
+            ]
+        },
+        {
+            "name": "OSMT",
+            "technology": "Kotlin, SpringBoot, Angular",
+            "summary": "I led the development team at Concentric Sky that designed and built the Open Source Skills Management Tool, OSMT for Western Governers University.",
+            "description": "",
+            "links": [
+                {"url": "https://github.com/wgu-opensource/osmt", "label": "GitHub"},
+            ]
+        },
+
+        {
+            "name": "FlySky HID Joystick Driver",
+            "technology": "OSX, ObjC",
+            "summary": "An OSX kernel driver (circa 2013) USB Josytick HID driver for FlySky protocol RC transmitters like the Hobby King T6A.",
+            "description": "",
+            "links": [
+                {"url": "https://github.com/lithium/flyskyhid-joystick", "label": "GitHub"},
+            ]
+        },
+        {
+            "name": "Alarming!",
+            "technology": "Android, Java",
+            "summary": "An alarm clock with a captcha, written for Android 2.0",
+            "description": "",
+            "links": [
+                {"url": "https://github.com/lithium/alarming2", "label": "GitHub"},
+                {"url": "http://android.hlidskialf.com/apps/alarming", "label": "Website"},
+            ]
+        },
+
+        {
+            "name": "Tone Picker",
+            "technology": "Android, Java",
+            "summary": "Android 2.0 app that provided ringtone profiles",
+            "description": "",
+            "links": [
+                {"url": "https://github.com/lithium/ringer", "label": "GitHub"},
+                {"url": "http://android.hlidskialf.com/apps/tonepicker", "label": "Website"},
+            ]
+        },
+
+        {
+            "name": "Sidekick Ringer",
+            "technology": "Mobile/Sidekick, Java",
+            "summary": "An old Ringtone Picker for the SideKick phones.",
+            "description": "",
+            "links": [
+                {"url": "https://github.com/lithium/sidekick-ringer", "label": "GitHub"},
+            ]
+        },
+
     ]
     experience = [
-
         {
             "company_name": "Concentric Sky",
             "position": "Senior Software Engineer",
