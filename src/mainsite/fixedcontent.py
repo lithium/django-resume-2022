@@ -3,12 +3,48 @@
 class FixedContent(object):
     skills = [
         {
-            "name": "Programming",
-            "description": "Experience developing in many languages and platforms. Ability to pick up new platforms quickly."
+            "name": "Programming Experience",
+            "description": "Experience with many languages and have the ability to pick up new languages quickly. "
+                "<br>Professional experience with: Python, Kotlin, Scala, Java, Typescript, Javascript, PHP, Ruby, ObjC, C/C++"
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Diverse Platform Experience",
+            "description": "Professional experience developing software for many different platforms: "
+                "Linux, OS X, Windows, Android, iOS, Qt, Embedded Devices",
+        },
+        {
+            "name": "\"Full Stack\" Web Application Design",
+            "description": "Experience designing, developing, deploying and maintaining web applications using: "
+                "Django, Rails, Play, SpringBoot, Angular, React"
+            "<br>Experience implementing modern web techniques: OAuth2/OpenID Connect, CORS, REST, OpenApi Spec, etc",
+        },
+        {
+            "name": "Application Development Experience",
+            "description": "Experience building end user applications for various platforms: OS X, Windows, Embedded Qt",
+        },
+        {
+            "name": "Mobile Development Experience",
+            "description": "Experience building applications for mobile platforms: Android, iOS, Blackberry, Nokia",
+        },
+        {
+            "name": "'Senior' Engineer Experience",
+            "description": "Experience leading teams of up to 6 developers: scoping and organizing work, running standups/spring meetings, code review, coordinating with management, etc",
+        },
+        {
+            "name": "Sysadmin/Devops/SRE Knowledge",
+            "description": "Experience building automated deploy systems (CI/CD) for various environments using: Jenkins, Docker, Ansible, Puppet, Chef, AWS, Heroku, Azure",
+        },
+        {
+            "name": "Software Contracting Experience",
+            "description": "Experience in meeting with prospective clients to scope out prospective work, provide estimates and breakdowns of work needed, and assisting in writing the Statement of Work.",
+        },
+        {
+            "name": "Source Code Management",
+            "description": "Experience participating and contributing to both private and open source repositories using many types of source code management tools: Git, GitHub, BitBucket, SVN, CVS, etc",
+        },
+        {
+            "name": "Conference Speaking Experience",
+            "description": "Experience representing my company and speaking at open source conferences on Django. I presented talks about Django caching and scaling websites at OSCON 2010 and 2012 and at DjangoCON 2012.",
         },
     ]
     projects = [
@@ -113,17 +149,17 @@ class FixedContent(object):
             "started": "April 2009",
             "finished": "April 2022",
             "duties": [
-                "Worked on various client projects on many platforms: Django/Rails, Kotlin/Scala/Java, Angular/React, Android, iOS, MacOS",
+                "Worked on various client projects on many platforms: Django/Rails, Kotlin/Scala/Java, Angular/React, Android, iOS, MacOS, and more",
                 "Used both Agile and Waterfall project management methodologies.",
-                "Estimate work for myself and other developers.",
+                "Estimate work and budget time for myself and other developers.",
                 "Organize and run standup and sprint meetings",
                 "Maintain project budget and deliver on time and within budget.",
                 "Interviewed and evaluated applicants for hire.",
-                "Helped manage and oversee teams of 2-3 developers.",
+                "Helped manage and oversee teams of up to 6 developers.",
                 "Designed, Deployed and managed production servers in CI/CD pipelines.",
             ],
             "address": "1045 Willamette St. Eugene OR 97401",
-            "contact": "Wayne Skipper  541-342-8456"
+            "contact": "541-342-8456 (Wayne Skipper)"
         },
 
         {
@@ -138,7 +174,7 @@ class FixedContent(object):
                 "Maintained production code and applied bug fixes.",
             ],
             "address": "4200 Merdian Bellingham WA",
-            "contact": "Guy Seeklus  360-332-0078"
+            "contact": "360-332-0078 (Guy Seeklus)"
         },
 
         {

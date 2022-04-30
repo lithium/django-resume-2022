@@ -1,8 +1,8 @@
 
-<div class="container">
+<div class="skills">
     <ul>
         {% for skill in skills %}
-        <li><strong>{{ skill.name }}</strong> &ndash; {{ skill.description }}</li>
+        <li><h6>{{ skill.name }}</h6> <p>{{ skill.description|safe }}</p></li>
         {% endfor %}
     </ul>
 </div>
