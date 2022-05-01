@@ -4,8 +4,8 @@ class FixedContent(object):
     skills = [
         {
             "name": "Programming Experience",
-            "description": "Experience with many languages and have the ability to pick up new languages quickly. "
-                "<br>Professional experience with: Python, Kotlin, Scala, Java, Typescript, Javascript, PHP, Ruby, ObjC, C/C++"
+            "description": "Experience with many languages with the ability to pick up new ones quickly: "
+                "Python, Kotlin, Scala, Java, Typescript, Javascript, PHP, Ruby, ObjC, C/C++"
         },
         {
             "name": "Diverse Platform Experience",
@@ -15,8 +15,8 @@ class FixedContent(object):
         {
             "name": "\"Full Stack\" Web Application Design",
             "description": "Experience designing, developing, deploying and maintaining web applications using: "
-                "Django, Rails, Play, SpringBoot, Angular, React"
-            "<br>Experience implementing modern web techniques: OAuth2/OpenID Connect, CORS, REST, OpenApi Spec, etc",
+                "Django, Rails, Play, SpringBoot, Angular, React."
+            "<br>Including implementing modern web techniques: OAuth2/OpenID Connect, CORS, REST, OpenApi Spec, etc",
         },
         {
             "name": "Application Development Experience",
@@ -168,7 +168,7 @@ class FixedContent(object):
             "started": "March 2008",
             "finished": "April 2009",
             "duties": [
-                "Designed and implemented several web applications and libraries using PHP/Propel/Symfony",
+                "Designed and implemented several web applications using PHP/Propel/Symfony",
                 "Generated planning/architecture documents to conform with ISO 9001 requirements.",
                 "Generated documentation for training/user manual purposes.",
                 "Maintained production code and applied bug fixes.",
