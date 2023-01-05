@@ -3,14 +3,18 @@
 class FixedContent(object):
     skills = [
         {
-            "name": "Programming Experience",
-            "description": "Experience with many languages with the ability to pick up new ones quickly: "
-                "Python, Kotlin, Scala, Java, Typescript, Javascript, PHP, Ruby, ObjC, C/C++"
+            "name": "Multilingual Programming Experience",
+            "description": "Professional experience with many languages with the ability to pick up new ones quickly: "
+                "Python, Kotlin, Scala, Java, C#, C++, ObjC, Typescript, Javascript, PHP, Ruby."
         },
         {
             "name": "Diverse Platform Experience",
             "description": "Professional experience developing software for many different platforms: "
                 "Linux, OS X, Windows, Android, iOS, Qt, Embedded Devices",
+        },
+        {
+            "name": "Sysadmin/Devops/Cloud/SRE Knowledge",
+            "description": "Experience building automated deploy systems (CI/CD) for various environments using: Jenkins, Docker, Ansible, Puppet, Chef, AWS cdk, Heroku, Azure",
         },
         {
             "name": "\"Full Stack\" Web Application Design",
@@ -31,10 +35,6 @@ class FixedContent(object):
             "description": "Experience leading teams of up to 6 developers: scoping and organizing work, running standups/spring meetings, code review, coordinating with management, etc",
         },
         {
-            "name": "Sysadmin/Devops/SRE Knowledge",
-            "description": "Experience building automated deploy systems (CI/CD) for various environments using: Jenkins, Docker, Ansible, Puppet, Chef, AWS, Heroku, Azure",
-        },
-        {
             "name": "Software Contracting Experience",
             "description": "Experience in meeting with prospective clients to scope out prospective work, provide estimates and breakdowns of work needed, and assisting in writing the Statement of Work.",
         },
@@ -48,6 +48,25 @@ class FixedContent(object):
         },
     ]
     projects = [
+        {
+            "name": "Syntheremin",
+            "technology": "Leap Motion, OSX, ObjC",
+            "summary": "A synthesizer I built for Concentric Sky and launched to the Leap Motion Store to help demonstrate the Leap Motion Controller",
+            "description": "",
+            "links": [
+                {"url": "https://github.com/lithium/syntheremin", "label": "GitHub"},
+                {"url": "https://web.archive.org/web/20160111181657/http://syntheremin.com/", "label": "Website (archive)"},
+            ]
+        },
+        {
+            "name": "Lithtris",
+            "technology": "SDL, C++",
+            "summary": "Tetris in SDL circa 2007",
+            "description": "",
+            "links": [
+                {"url": "https://github.com/lithium/lithtris", "label": "GitHub"},
+            ]
+        },
         {
             "name": "Code Wars",
             "technology": "Node.js, Javascript",
@@ -70,26 +89,8 @@ class FixedContent(object):
         },
 
 
-        {
-            "name": "Lithtris",
-            "technology": "SDL, C++",
-            "summary": "Tetris in SDL circa 2007",
-            "description": "",
-            "links": [
-                {"url": "https://github.com/lithium/lithtris", "label": "GitHub"},
-            ]
-        },
 
 
-        {
-            "name": "Syntheremin",
-            "technology": "Leap Motion, OSX, ObjC",
-            "summary": "A synthesizer I built for Concentric Sky to help demonstrate the Leap Motion Controller",
-            "description": "",
-            "links": [
-                {"url": "http://syntheremin.com", "label": "Website"},
-            ]
-        },
         {
             "name": "OSMT",
             "technology": "Kotlin, SpringBoot, Angular",
@@ -107,6 +108,14 @@ class FixedContent(object):
             "description": "",
             "links": [
                 {"url": "https://github.com/lithium/flyskyhid-joystick", "label": "GitHub"},
+            ]
+        },
+        {
+            "name": "Slugfest Quake3 Mod",
+            "technology": "Quake3, C",
+            "summary": "A Quake3 Mod I wrote in highschool (circa 1998), source code lost to the sands of time but the compiled mod still runs and plays!",
+            "links": [
+                {"url": "https://github.com/lithium/quake3-slugfest", "label": "GitHub"},
             ]
         },
         {
@@ -143,6 +152,22 @@ class FixedContent(object):
 
     ]
     experience = [
+        {
+            "company_name": "Twenty Ideas",
+            "position": "Senior Engineer",
+            "started": "May 2022",
+            "duties": [
+              "Led a team of 9+ developers on a major port of a C# codebase from .NET Framework to .NET Core running in docker containers on AWS.",
+              "Built out a CI/CD process for an existing .NET project using AWS CDK (typescript)",
+              "Estimate work and budget time for myself and other developers.",
+              "Organize and run standup and sprint meetings",
+              "Interviewed and evaluated applicants for hire.",
+              "Helped manage and oversee a team of up to 10 people across disciplines: developers, QA, etc",
+              "Designed, Deployed and managed production servers in CI/CD pipelines.",
+            ],
+            "address": "Eugene OR",
+            "contact": "twentyideas.com",
+        },
         {
             "company_name": "Concentric Sky",
             "position": "Senior Software Engineer",
